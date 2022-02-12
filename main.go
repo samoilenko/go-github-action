@@ -8,5 +8,6 @@ func main() {
 }
 
 func sayHello(name string) string {
-	return fmt.Sprintf("Hi %s", name)
+	// Change this to "Hello %s" instead of "Hi %s".
+	return fmt.Sprintf("Hello %s", name)
 }
